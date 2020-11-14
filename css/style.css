@@ -1,0 +1,111 @@
+body{
+    background: lavenderblush;
+}
+
+.main{
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.header{
+    background-image:  url("../img/dummylogo.jpg");
+    width: 100%;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.content{
+    width: 100%;
+    background: lightgrey;
+    padding: 20px;
+}
+
+.article{
+    width: 33%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.article img{
+    width: 100%;
+}
+
+.actions{
+    padding: 10px 0;
+}
+
+.actions span.cart{
+    float: right;
+}
+
+.about{
+    text-align: center;
+}
+
+.pictures{
+    padding: 20px;
+}
+
+.picture{
+    width: 33%;
+    display: inline-block;
+}
+
+.picture img{
+    width: 100%;
+}
+
+.about .actions span.cart{
+    float: none;
+}
+
+span.cart a{
+    background: blanchedalmond;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+table.table-cart tr, .cartpage table tr td {
+    max-width: 220px;
+}
+
+table.table-cart tr td img{
+    max-width: 120px;
+    width: 100%;
+}
+
+.cart-page{
+    text-align: center;
+}
+
+span.buy{
+    text-decoration: none;
+    color: white;
+    background: lightskyblue;
+    padding: 5px;
+}
+
+.order-page{
+    margin: auto;
+    position: relative;
+    text-align: center;
+
+}
+
+.order-page .article p{
+    color: whitesmoke;
+}
+
+.form form{
+    display: inline-grid;
+}
+
+td.buy-td{
+    padding-top: 5px;
+}

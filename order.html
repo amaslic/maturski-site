@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html class="no-js"> 
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Easy &mdash; Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Shop" />
+	<meta name="keywords" content="shop javascript html5 css3" />
+	<meta name="author" content="" />
+
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+	
+	<div class="main">
+		<div class="header">
+        </div>
+        <div class="content">
+            <div class="order-page">
+                    <div class="article">
+                            <img src="img/dummylogo.jpg" alt="dummy" />
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            </p>
+                    </div>
+                    <div class="form">
+                        <form class="order-form">
+                            <table class="table-cart">
+                                    <tr>
+                                      <th>First & Last Name</th>
+                               
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                            <input type="text" id="name" name="name">
+                                      </td>
+                                      <tr>
+                                          <th>Address</th>
+                                      </tr>
+                                      <td>
+                                          
+                                            <input type="text" id="address" name="address">
+                                      </td>
+                                      <tr>
+                                            <th>Phone Number</th>
+                                        </tr>
+                                      <td>
+                                            <input id="phone" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"  type="text" name="phone">
+                                      </td>
+                                      <tr>
+                                            <th>Email</th>
+                                        </tr>
+                                      <td>
+                                            <input id="mail" type="email" name="mail">
+                                        </td>
+                                        <tr>
+                                        <td class="buy-td">
+                                            <span class="buy" onClick="validateForm()">Buy</span>
+                                        </td>
+                                        </tr>
+                                    </tr>
+                           </table>
+                        </form>
+                 
+                    </div>
+            </div>
+        </div>
+		<footer>
+			<div>
+				
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
